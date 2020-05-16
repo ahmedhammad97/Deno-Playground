@@ -11,7 +11,7 @@ router.post('/', (req, res) => {
 });
 
 router.get('/', (req, res) => {
-    console.log(req.query); // Not working
+    console.log(req.query); // Working now :)
     res.status(200).send("Done");
 })
 
